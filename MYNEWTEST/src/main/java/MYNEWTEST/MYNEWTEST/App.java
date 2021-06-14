@@ -26,14 +26,14 @@ public class App {
 
 		
 		System.out.println(exp);
-		logger.log("-------------------------------------------------------------------------------------------------------");
+		system.out("-------------------------------------------------------------------------------------------------------");
 		System.out.println(body);
 		if (expected.equalsIgnoreCase(body)) {
 			
-		           logger.log("Success");
+		           system.out("Success");
 
 		} else {
-			  logger.log("Failed");
+			  system.out("Failed");
 		}
 		driver.close();
 
