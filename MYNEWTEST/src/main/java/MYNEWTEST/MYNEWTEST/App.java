@@ -28,7 +28,7 @@ public class App {
 		System.out.println(exp);
 		logger.log("-------------------------------------------------------------------------------------------------------");
 		System.out.println(body);
-		if (Expected.equalsIgnoreCase(body)) {
+		if (expected.equalsIgnoreCase(body)) {
 			
 		           logger.log("Success");
 
